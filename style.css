@@ -25,6 +25,11 @@ body {
 body {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
+    font-size: 14px;
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -32,3 +37,121 @@ h1 {
     font-weight: 500;
 }
 
+.zbozi {
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px 0 lightgray, 0 6px 20px 0 lightgray;
+    width: 670px;
+    height: 440px;
+}
+
+.vizual {
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    padding: 30px; 
+    border-radius: 20px 0 0 20px;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    color: white;
+}
+
+.detaily {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+}
+
+.bota {
+    position: absolute;
+    bottom: 0px;
+    left: -100px;
+}
+
+.slogan {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px
+}
+
+.cenovka {
+    position: absolute;
+    padding: 30px;
+    bottom: 0;
+    right: 0;
+}
+
+.cena {
+    text-align: right;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zaruka {
+    font-size: 12px;
+}
+
+.nazev {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.produkt {
+    color: #959595;
+    margin-bottom: 0px;
+}
+
+.popis {
+    padding: 30px 0 30px 0;
+    margin: 0px;
+    border-bottom: 1px solid #06d7c1;
+}
+
+.parametr {
+    margin-top: 30px;
+}
+
+.velikosti {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+li {
+   display: flex;
+   padding: 5px;
+   border-radius: 50%;
+   border: 1px solid transparent
+}
+
+li:hover {
+    color: salmon;
+    font-weight: 600;
+    border: 1px solid #f15f42;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.vybrana {
+    color: salmon;
+    font-weight: 600;
+    border: 1px solid #f15f42;
+    border-radius: 50%;
+}
+
+.tlacitko {
+    text-decoration: none;
+    background-color: #f15f42;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    font-size: 18px;
+    position: absolute;
+    bottom: 30px;
+    border-radius: 10px;
+}
+
+.tlacitko:hover {
+    cursor: pointer;
+    filter: brightness(85%)
+}
